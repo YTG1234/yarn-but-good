@@ -39,4 +39,4 @@ CLASS net/minecraft/class_1869 net/minecraft/recipe/ShapedRecipe
 		ARG 1 inv
 		ARG 2 offsetX
 		ARG 3 offsetY
-	CLASS class_1870 Serializer
+	CLASS class_1870 Serialiser

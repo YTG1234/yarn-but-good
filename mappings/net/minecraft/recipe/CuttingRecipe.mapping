@@ -12,7 +12,7 @@ CLASS net/minecraft/class_3972 net/minecraft/recipe/CuttingRecipe
 		ARG 4 group
 		ARG 5 input
 		ARG 6 output
-	CLASS class_3973 Serializer
+	CLASS class_3973 Serialiser
 		FIELD field_17648 recipeFactory Lnet/minecraft/class_3972$class_3973$class_3974;
 		METHOD <init> (Lnet/minecraft/class_3972$class_3973$class_3974;)V
 			ARG 1 recipeFactory

@@ -12,4 +12,4 @@ CLASS net/minecraft/class_5357 net/minecraft/recipe/SmithingRecipe
 		ARG 1 stack
 	METHOD method_31587 (Lnet/minecraft/class_1856;)Z
 		ARG 0 ingredient
-	CLASS class_5358 Serializer
+	CLASS class_5358 Serialiser

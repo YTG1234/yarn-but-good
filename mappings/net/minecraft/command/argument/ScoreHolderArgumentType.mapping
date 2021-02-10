@@ -25,4 +25,4 @@ CLASS net/minecraft/class_2233 net/minecraft/command/argument/ScoreHolderArgumen
 			ARG 1 source
 	CLASS class_2235 SelectorScoreHolder
 		FIELD field_9952 selector Lnet/minecraft/class_2300;
-	CLASS class_2236 Serializer
+	CLASS class_2236 Serialiser

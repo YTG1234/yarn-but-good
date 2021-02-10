@@ -28,4 +28,4 @@ CLASS net/minecraft/class_2186 net/minecraft/command/argument/EntityArgumentType
 	METHOD method_9317 getEntities (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;
 		ARG 0 context
 		ARG 1 name
-	CLASS class_2187 Serializer
+	CLASS class_2187 Serialiser

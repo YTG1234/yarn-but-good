@@ -13,6 +13,7 @@ CLASS net/minecraft/class_1299 net/minecraft/entity/EntityType
 	FIELD field_6094 spawnGroup Lnet/minecraft/class_1311;
 	FIELD field_6101 factory Lnet/minecraft/class_1299$class_4049;
 	FIELD field_6106 translationKey Ljava/lang/String;
+	FIELD field_6131 ARMOUR_STAND Lnet/minecraft/class_1299;
 	METHOD <init> (Lnet/minecraft/class_1299$class_4049;Lnet/minecraft/class_1311;ZZZZLcom/google/common/collect/ImmutableSet;Lnet/minecraft/class_4048;II)V
 		ARG 1 factory
 		ARG 2 spawnGroup

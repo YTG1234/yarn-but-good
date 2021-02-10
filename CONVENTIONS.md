@@ -16,7 +16,7 @@ grouping classes together in an IDE's tree view, reading and writing code is don
 
 ## Spelling
 
-Use American English for consistency throughout Yarn and with known Mojang names.
+Use ~~American~~ English for consistency throughout Yarn ~~and with known Mojang names~~.
 
 If there are two accepted spellings of the same word, first check if one is already being used in Yarn or by Mojang, and if
 not, use the most common spelling.
