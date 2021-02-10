@@ -50,6 +50,7 @@ CLASS net/minecraft/class_3532 net/minecraft/util/math/MathHelper
 		ARG 1 g
 		ARG 2 b
 	METHOD method_15354 idealHash (I)I
+		ARG 0 i
 	METHOD method_15355 sqrt (F)F
 		ARG 0 value
 	METHOD method_15356 angleBetween (FF)F
@@ -136,6 +137,8 @@ CLASS net/minecraft/class_3532 net/minecraft/util/math/MathHelper
 		ARG 2 end
 		ARG 4 delta
 	METHOD method_15391 absMax (DD)D
+		ARG 0 a
+		ARG 2 b
 	METHOD method_15392 wrapDegrees (I)I
 	METHOD method_15393 wrapDegrees (F)F
 	METHOD method_15394 randomUuid ()Ljava/util/UUID;
