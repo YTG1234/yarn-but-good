@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_2177 net/minecraft/command/argument/ColorArgumentType
+CLASS net/minecraft/class_2177 net/minecraft/command/argument/ColourArgumentType
 	FIELD field_9839 EXAMPLES Ljava/util/Collection;
 	FIELD field_9840 INVALID_COLOR_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
@@ -8,3 +8,5 @@ CLASS net/minecraft/class_2177 net/minecraft/command/argument/ColorArgumentType
 	METHOD method_9277 getColor (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_124;
 		ARG 0 context
 		ARG 1 name
+	METHOD parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+		ARG 1 reader

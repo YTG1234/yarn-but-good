@@ -1,6 +1,6 @@
-CLASS net/minecraft/class_3620 net/minecraft/block/MapColor
-	COMMENT Represents the surface color of a block when rendered from the {@link net.minecraft.client.render.MapRenderer}.
-	COMMENT Color names refer to a material or an object which refers to their vanilla Minecraft textures, not their real-world counterparts, eg. "emerald green".
+CLASS net/minecraft/class_3620 net/minecraft/block/MapColour
+	COMMENT Represents the surface colour of a block when rendered from the {@link net.minecraft.client.render.MapRenderer}.
+	COMMENT Colour names refer to a material or an object which refers to their vanilla Minecraft textures, not their real-world counterparts, eg. "emerald green".
 	COMMENT Names are in the form of either <i>blockReference_baseColor</i> or <i>color</i>.
 	FIELD field_15976 LIGHT_BLUE_GRAY Lnet/minecraft/class_3620;
 	FIELD field_15977 BROWN Lnet/minecraft/class_3620;
@@ -32,12 +32,12 @@ CLASS net/minecraft/class_3620 net/minecraft/block/MapColor
 	FIELD field_16003 TERRACOTTA_WHITE Lnet/minecraft/class_3620;
 	FIELD field_16004 DARK_GREEN Lnet/minecraft/class_3620;
 	FIELD field_16005 IRON_GRAY Lnet/minecraft/class_3620;
-	FIELD field_16006 COLORS [Lnet/minecraft/class_3620;
+	FIELD field_16006 COLOURS [Lnet/minecraft/class_3620;
 	FIELD field_16007 TERRACOTTA_BLACK Lnet/minecraft/class_3620;
 	FIELD field_16008 CLEAR Lnet/minecraft/class_3620;
 	FIELD field_16009 BLACK Lnet/minecraft/class_3620;
 	FIELD field_16010 YELLOW Lnet/minecraft/class_3620;
-	FIELD field_16011 color I
+	FIELD field_16011 colour I
 	FIELD field_16012 DARK_RED Lnet/minecraft/class_3620;
 	FIELD field_16013 TERRACOTTA_YELLOW Lnet/minecraft/class_3620;
 	FIELD field_16014 PURPLE Lnet/minecraft/class_3620;
@@ -66,6 +66,6 @@ CLASS net/minecraft/class_3620 net/minecraft/block/MapColor
 	FIELD field_25708 BRIGHT_TEAL Lnet/minecraft/class_3620;
 	METHOD <init> (II)V
 		ARG 1 id
-		ARG 2 color
-	METHOD method_15820 getRenderColor (I)I
+		ARG 2 colour
+	METHOD method_15820 getRenderColour (I)I
 		ARG 1 shade

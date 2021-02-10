@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_4700 net/minecraft/client/world/BiomeColorCache
+CLASS net/minecraft/class_4700 net/minecraft/client/world/BiomeColourCache
 	FIELD field_21519 last Ljava/lang/ThreadLocal;
 	FIELD field_21520 colors Lit/unimi/dsi/fastutil/longs/Long2ObjectLinkedOpenHashMap;
 	FIELD field_21521 lock Ljava/util/concurrent/locks/ReentrantReadWriteLock;
@@ -8,8 +8,8 @@ CLASS net/minecraft/class_4700 net/minecraft/client/world/BiomeColorCache
 		ARG 2 chunkZ
 	METHOD method_23770 getBiomeColor (Lnet/minecraft/class_2338;Ljava/util/function/IntSupplier;)I
 		ARG 1 pos
-		ARG 2 colorFactory
-	METHOD method_23772 getColorArray (II)[I
+		ARG 2 colourFactory
+	METHOD method_23772 getColourArray (II)[I
 		ARG 1 chunkX
 		ARG 2 chunkZ
 	CLASS class_4701 Last
