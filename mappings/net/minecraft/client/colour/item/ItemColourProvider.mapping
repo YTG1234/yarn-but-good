@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_326 net/minecraft/client/colour/item/ItemColourProvider
+	METHOD getColor getColour (Lnet/minecraft/class_1799;I)I
+		ARG 1 stack
+		ARG 2 tintIndex

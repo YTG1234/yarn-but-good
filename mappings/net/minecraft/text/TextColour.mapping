@@ -1,5 +1,5 @@
-CLASS net/minecraft/class_5251 net/minecraft/text/TextColor
-	COMMENT Represents an RGB color of a {@link Text}.
+CLASS net/minecraft/class_5251 net/minecraft/text/TextColour
+	COMMENT Represents an RGB colour of a {@link Text}.
 	COMMENT
 	COMMENT <p>This is immutable, and part of a {@link Style}.</p>
 	COMMENT
@@ -13,8 +13,10 @@ CLASS net/minecraft/class_5251 net/minecraft/text/TextColor
 	METHOD <init> (ILjava/lang/String;)V
 		ARG 1 rgb
 		ARG 2 name
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 other
 	METHOD method_27716 getRgb ()I
-		COMMENT Gets the RGB value of this color.
+		COMMENT Gets the RGB value of this colour.
 		COMMENT
 		COMMENT <p>The red bits can be obtained by {@code (rgb >> 16) & 0xFF}, green bits
 		COMMENT by {@code (rgb >> 8) & 0xFF}, blue bits by {@code rgb & 0xFF}.</p>
@@ -31,5 +33,5 @@ CLASS net/minecraft/class_5251 net/minecraft/text/TextColor
 		ARG 0 name
 			COMMENT the name
 	METHOD method_27721 getName ()Ljava/lang/String;
-		COMMENT Gets the name of this color, used for converting the color to JSON format.
+		COMMENT Gets the name of this coloyr, used for converting the color to JSON format.
 	METHOD method_27723 getHexCode ()Ljava/lang/String;

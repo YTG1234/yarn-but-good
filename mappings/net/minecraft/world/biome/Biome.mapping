@@ -72,7 +72,7 @@ CLASS net/minecraft/class_1959 net/minecraft/world/biome/Biome
 		ARG 2 blockPos
 	METHOD method_8707 computeTemperature (Lnet/minecraft/class_2338;)F
 		ARG 1 pos
-	METHOD method_8711 getGrassColorAt (DD)I
+	METHOD method_8711 getGrassColourAt (DD)I
 		ARG 1 x
 		ARG 3 z
 	METHOD method_8712 getTemperature ()F

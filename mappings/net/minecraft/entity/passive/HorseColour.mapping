@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_5149 net/minecraft/entity/passive/HorseColor
+CLASS net/minecraft/class_5149 net/minecraft/entity/passive/HorseColour
 	FIELD field_23823 VALUES [Lnet/minecraft/class_5149;
 	FIELD field_23824 index I
 	METHOD <init> (Ljava/lang/String;II)V
