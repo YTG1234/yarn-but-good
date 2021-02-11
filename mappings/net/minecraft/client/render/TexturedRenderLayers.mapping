@@ -9,7 +9,7 @@ CLASS net/minecraft/class_4722 net/minecraft/client/render/TexturedRenderLayers
 	FIELD field_21708 SIGNS_ATLAS_TEXTURE Lnet/minecraft/class_2960;
 	FIELD field_21709 CHEST_ATLAS_TEXTURE Lnet/minecraft/class_2960;
 	FIELD field_21710 SHULKER_TEXTURE_ID Lnet/minecraft/class_4730;
-	FIELD field_21711 COLORED_SHULKER_BOXES_TEXTURES Ljava/util/List;
+	FIELD field_21711 COLOURED_SHULKER_BOXES_TEXTURES Ljava/util/List;
 	FIELD field_21712 WOOD_TYPE_TEXTURES Ljava/util/Map;
 	FIELD field_21713 BED_TEXTURES [Lnet/minecraft/class_4730;
 	FIELD field_21724 SHULKER_BOXES_RENDER_LAYER Lnet/minecraft/class_1921;
